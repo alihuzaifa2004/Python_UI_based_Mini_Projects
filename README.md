@@ -23,7 +23,7 @@ This is a Python mini project that provides a GUI-based student management syste
 ### Technologies Used
 
 - Python
-- Tkinter (for GUI)
+- Streamlit (for GUI)
 - JSON (for data storage)
 
 ### Files
@@ -48,7 +48,7 @@ The Contact Book project provides a GUI for storing and managing contact informa
 ### Technologies Used
 
 - Python
-- Tkinter (for GUI)
+- Streamlit (for GUI)
 - File handling (e.g., text or JSON format for saving contacts)
 
 ### Use Case
@@ -71,7 +71,7 @@ A classic Rock Paper Scissor game with a GUI that lets users play against the co
 ### Technologies Used
 
 - Python
-- Tkinter (for GUI)
+- Streamlit (for GUI)
 - Random module
 
 ### Gameplay
