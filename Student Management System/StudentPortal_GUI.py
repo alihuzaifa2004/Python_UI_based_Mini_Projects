@@ -18,7 +18,7 @@ else:
 def add_student():
     student_id = st.text_input("Enter Student ID")
     name = st.text_input("Enter Name")
-    age = st.number_input("Enter Age", min_value=0, max_valaue=120)
+    age = st.number_input("Enter Age", min_value=0, max_value=120)
     city = st.text_input("Enter City")
 
     if st.button("Add Student"):
@@ -71,13 +71,26 @@ def delete_student():
         else:
             st.error("Student ID not found.")
 
-# Display all students
 def view_all_students():
     if all_data:
-        st.write("All Students Data:")
-        st.json(all_data)
+        st.write("### All Students Data:")
+        
+        # Convert dictionary to list of dictionaries for display
+        student_list = []
+        for student_id, details in all_data.items():
+            student_entry = {
+                "ID": student_id,
+                "Name": details["name"],
+                "Age": details["Age"],
+                "City": details["City"]
+            }
+            student_list.append(student_entry)
+
+        # Display as a table
+        st.table(student_list)  # You can also use st.dataframe(student_list) for interactivity
     else:
         st.info("No student data available.")
+
 
 # Streamlit App UI
 st.title("Student Management System")
