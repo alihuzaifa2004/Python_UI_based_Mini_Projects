@@ -5,6 +5,7 @@ This repository is created to deliver a collection of Python mini projects with 
 - Student Management System
 - Contact Book
 - Rock Paper Scissor
+- Virtual Bank System
 
 ---
 
@@ -26,11 +27,6 @@ This is a Python mini project that provides a GUI-based student management syste
 - Streamlit (for GUI)
 - JSON (for data storage)
 
-### Files
-
-- `StudentPortal_GUI.py`: The main Python file containing the GUI logic.
-- `data.json`: Stores the student data in JSON format.
-
 ---
 
 ## Contact Book
@@ -43,17 +39,12 @@ The Contact Book project provides a GUI for storing and managing contact informa
 - View all saved contacts
 - Search contacts by name or number
 - Delete specific contacts
-- Simple and user-friendly interface
 
 ### Technologies Used
 
 - Python
 - Streamlit (for GUI)
 - File handling (e.g., text or JSON format for saving contacts)
-
-### Use Case
-
-Perfect for organizing personal or professional contact lists with easy access.
 
 ---
 
@@ -66,7 +57,6 @@ A classic Rock Paper Scissor game with a GUI that lets users play against the co
 - Interactive GUI gameplay
 - Random computer move generation
 - Real-time result display
-- Score tracking (optional)
 
 ### Technologies Used
 
@@ -74,28 +64,46 @@ A classic Rock Paper Scissor game with a GUI that lets users play against the co
 - Streamlit (for GUI)
 - Random module
 
-### Gameplay
+---
 
-Users select Rock, Paper, or Scissors, and the computer randomly picks its choice. The result (win, lose, or draw) is shown instantly.
+## Virtual Bank System
+
+This project is a basic banking system simulation that allows users to create accounts, log in, deposit, withdraw, and delete accounts through a Streamlit-powered interface.
+
+### Features
+
+- Create new bank accounts
+- Secure login with password (stored in JSON)
+- View current account balance
+- Deposit and withdraw funds
+- Delete existing accounts
+- Data stored in `accounts.json` for persistence
+
+### Technologies Used
+
+- Python
+- Streamlit (for GUI)
+- JSON (for storing account data)
 
 ---
 
 ## Project Structure
 
-```
-PYTHON_MINIPROJECTS/
 │
 ├── Student Management System/
-│   ├── data.json
-│   ├── README.md
-│   ├── StudentPortal_GUI.py
+│ ├── data.json
+│ ├── StudentPortal_GUI.py
 │
 ├── Contact Book/
-│   ├── [Contact Book Python Files]
+│ ├── [Contact Book Python Files]
 │
 ├── Rock Paper Scissor/
-│   ├── [Rock Paper Scissor Python Files]
-```
+│ ├── [Rock Paper Scissor Python Files]
+│
+├── Virtual Bank System/
+│ ├── accounts.json
+│ ├── VirtualBank_GUI.py
+
 
 ---
 
