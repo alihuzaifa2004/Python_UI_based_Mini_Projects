@@ -1,4 +1,3 @@
-
 # 📁 Python Mini Projects with GUI
 
 This repository is created to deliver a collection of Python mini projects with GUI interfaces. The included projects are:
@@ -8,6 +7,7 @@ This repository is created to deliver a collection of Python mini projects with 
 - Rock Paper Scissor  
 - Virtual Bank System  
 - ChatBot with OpenAI  
+- MCQ Quiz App
 
 ---
 
@@ -105,6 +105,56 @@ This project demonstrates a simple chatbot using the OpenAI GPT-3.5 model integr
 
 ---
 
+## 🧠 MCQ Quiz App
+
+A simple yet interactive multiple-choice quiz application built using **Python** and **Streamlit**. This app presents users with a series of 20 general knowledge questions and evaluates their score at the end.
+
+### ✅ Features
+- 20 general knowledge questions  
+- Multiple choice options for each question  
+- Real-time scoring and result display  
+- Option to restart the quiz  
+- Fully browser-based UI using Streamlit  
+
+### 🛠️ Technologies Used
+- Python  
+- Streamlit (for GUI)  
+
+### 🧪 How It Works
+1. Each question is displayed with multiple options.  
+2. Users select one option and click **Next** to proceed.  
+3. After answering all questions, click **Show Result** to view your score and correct answers.  
+4. Option to **Restart Quiz** to try again.  
+
+### 📂 Project Structure
+```
+MCQ_Quiz_App/
+│
+├── mcq_quiz_app.py         # Main Streamlit application file
+└── README.md               # Project documentation (this file)
+```
+
+### ▶️ How to Run
+1. Install Streamlit (if not already installed):
+```bash
+pip install streamlit
+```
+
+2. Run the app:
+```bash
+streamlit run mcq_quiz_app.py
+```
+
+3. The app will open in your default web browser.
+
+### 📌 Example Questions
+- What is the capital of France?  
+- What is 2 + 2?  
+- Who wrote *Romeo and Juliet*?  
+- What is the tallest mountain in the world?  
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -124,6 +174,9 @@ This project demonstrates a simple chatbot using the OpenAI GPT-3.5 model integr
 │
 ├── ChatBot with OpenAI/
 │   └── ChatBotwithOpenAI.py
+│
+├── MCQ Quiz App/
+│   └── mcq_quiz_app.py
 ```
 
 ---
