@@ -1,3 +1,4 @@
+
 # 📁 Python Mini Projects with GUI
 
 This repository is created to deliver a collection of Python mini projects with GUI interfaces. The included projects are:
@@ -7,7 +8,8 @@ This repository is created to deliver a collection of Python mini projects with 
 - Rock Paper Scissor  
 - Virtual Bank System  
 - ChatBot with OpenAI  
-- MCQ Quiz App
+- MCQ Quiz App  
+- Tic-Tac-Toe Game
 
 ---
 
@@ -100,7 +102,7 @@ This project demonstrates a simple chatbot using the OpenAI GPT-3.5 model integr
 2. Run the Streamlit app:  
    ```bash
    streamlit run ChatBotwithOpenAI.py
-   ```
+   ```  
 3. Interact with the chatbot using the provided input field.
 
 ---
@@ -120,38 +122,27 @@ A simple yet interactive multiple-choice quiz application built using **Python**
 - Python  
 - Streamlit (for GUI)  
 
-### 🧪 How It Works
-1. Each question is displayed with multiple options.  
-2. Users select one option and click **Next** to proceed.  
-3. After answering all questions, click **Show Result** to view your score and correct answers.  
-4. Option to **Restart Quiz** to try again.  
+---
 
-### 📂 Project Structure
-```
-MCQ_Quiz_App/
-│
-├── mcq_quiz_app.py         # Main Streamlit application file
-└── README.md               # Project documentation (this file)
-```
+## 🎮 Tic-Tac-Toe Game
+
+An interactive browser-based Tic-Tac-Toe game for two players using Streamlit.
+
+### ✅ Features
+- Two-player mode with name input  
+- Alternating turns and move tracking  
+- Automatic win or tie detection  
+- Option to restart the game  
+
+### 🛠️ Technologies Used
+- Python  
+- Streamlit (for GUI)  
 
 ### ▶️ How to Run
-1. Install Streamlit (if not already installed):
 ```bash
 pip install streamlit
+streamlit run app.py
 ```
-
-2. Run the app:
-```bash
-streamlit run mcq_quiz_app.py
-```
-
-3. The app will open in your default web browser.
-
-### 📌 Example Questions
-- What is the capital of France?  
-- What is 2 + 2?  
-- Who wrote *Romeo and Juliet*?  
-- What is the tallest mountain in the world?  
 
 ---
 
@@ -177,6 +168,9 @@ streamlit run mcq_quiz_app.py
 │
 ├── MCQ Quiz App/
 │   └── mcq_quiz_app.py
+│
+├── Tic Tac Toe Game/
+│   └── app.py
 ```
 
 ---
