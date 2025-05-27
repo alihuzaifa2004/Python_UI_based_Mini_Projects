@@ -95,7 +95,7 @@ def highlight_similar_lines(text_a, text_b, threshold=0.8):
             sim = compute_tfidf_similarity(line1, line2)
             max_sim = max(max_sim, sim)
         if max_sim > threshold:
-            highlighted_a += f"<div style='background-color: #fce588'>{line1}</div>\n"
+            highlighted_a += f"<div style='background-color: #564F1B'>{line1}</div>\n"
         else:
             highlighted_a += f"<div>{line1}</div>\n"
 
@@ -110,7 +110,7 @@ def highlight_similar_lines(text_a, text_b, threshold=0.8):
             sim = compute_tfidf_similarity(line2, line1)
             max_sim = max(max_sim, sim)
         if max_sim > threshold:
-            highlighted_b += f"<div style='background-color: #fce588'>{line2}</div>\n"
+            highlighted_b += f"<div style='background-color: #564F1B'>{line2}</div>\n"
         else:
             highlighted_b += f"<div>{line2}</div>\n"
 
