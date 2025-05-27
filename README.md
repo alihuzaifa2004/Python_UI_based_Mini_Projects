@@ -9,7 +9,8 @@ This repository is created to deliver a collection of Python mini projects with 
 - Virtual Bank System  
 - ChatBot with OpenAI  
 - MCQ Quiz App  
-- Tic-Tac-Toe Game
+- Tic-Tac-Toe Game  
+- Plagiarism Detection System
 
 ---
 
@@ -146,6 +147,25 @@ streamlit run app.py
 
 ---
 
+## 🕵️ Plagiarism Detection System
+
+A tool to detect plagiarism between two text documents or inputs using either TF-IDF or Sentence Transformers for similarity calculation.
+
+### ✅ Features
+- Upload PDF, DOCX, or TXT files or input text manually  
+- Choose between TF-IDF or Transformer-based similarity  
+- Highlights line-by-line similarities  
+- Gives similarity score with interpretation (high/moderate/low)  
+
+### 🛠️ Technologies Used
+- Python  
+- Streamlit (for GUI)  
+- scikit-learn (TF-IDF, cosine similarity)  
+- SentenceTransformers (for BERT-based embeddings)  
+- PyMuPDF and python-docx (for PDF and DOCX parsing)  
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -171,6 +191,9 @@ streamlit run app.py
 │
 ├── Tic Tac Toe Game/
 │   └── app.py
+│
+├── Plagiarism Detection System/
+│   └── plagiarism_app.py
 ```
 
 ---
