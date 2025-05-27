@@ -198,6 +198,7 @@ A tool to detect plagiarism between two text documents or inputs using either TF
 
 ---
 
+
 ## 📜 License
 
 This project is for **educational purposes** only.
