@@ -10,7 +10,8 @@ This repository is created to deliver a collection of Python mini projects with 
 - ChatBot with OpenAI  
 - MCQ Quiz App  
 - Tic-Tac-Toe Game  
-- Plagiarism Detection System
+- Plagiarism Detection System  
+- Real-Time Stopwatch  ⏱️
 
 ---
 
@@ -166,6 +167,31 @@ A tool to detect plagiarism between two text documents or inputs using either TF
 
 ---
 
+## ⏱️ Real-Time Stopwatch
+
+This is a simple **Real-Time Stopwatch** web application built using Streamlit in Python.
+
+### ✅ Features
+- Start/Stop the stopwatch  
+- Reset the stopwatch  
+- Real-time updates of minutes, seconds, and milliseconds  
+- Minimal, centered layout  
+
+### 🛠️ Technologies Used
+- Python  
+- Streamlit (for GUI)  
+
+### ▶️ How to Run
+```bash
+pip install streamlit
+streamlit run stopwatch.py
+```
+
+### Limitations
+⚠️ Since Streamlit is not designed for continuous loops, this app relies on simple hacks using session state and `st.empty()`. It is best for small utilities but not a high-precision stopwatch.
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -194,10 +220,12 @@ A tool to detect plagiarism between two text documents or inputs using either TF
 │
 ├── Plagiarism Detection System/
 │   └── plagiarism_app.py
+│
+├── Real-Time Stopwatch/
+│   └── stopwatch.py
 ```
 
 ---
-
 
 ## 📜 License
 
