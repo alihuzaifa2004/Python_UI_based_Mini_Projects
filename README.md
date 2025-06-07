@@ -11,6 +11,7 @@ This repository is created to deliver a collection of Python mini projects with 
 - MCQ Quiz App  
 - Tic-Tac-Toe Game  
 - Plagiarism Detection System  
+- Password Generator 🔐  
 - Real-Time Stopwatch  ⏱️
 
 ---
@@ -167,6 +168,30 @@ A tool to detect plagiarism between two text documents or inputs using either TF
 
 ---
 
+## 🔐 Password Generator
+
+A secure and customizable password generator with a simple GUI interface. Users can generate passwords that always start with a letter and include a mix of letters, digits, and special characters.
+
+### ✅ Features
+- User-defined password length (between 6 and 15 characters)
+- Passwords always start with a letter (A–Z, a–z)
+- Includes letters, digits, and punctuation characters
+- Simple and secure password generation
+- Web-based interface using Streamlit
+
+### 🛠️ Technologies Used
+- Python  
+- Streamlit (for GUI)  
+- `random` and `string` modules for password generation  
+
+### ▶️ How to Run
+```bash
+pip install streamlit
+streamlit run password_generator.py
+```
+
+---
+
 ## ⏱️ Real-Time Stopwatch
 
 This is a simple **Real-Time Stopwatch** web application built using Streamlit in Python.
@@ -221,8 +246,13 @@ streamlit run stopwatch.py
 ├── Plagiarism Detection System/
 │   └── plagiarism_app.py
 │
+├── Password Generator/
+│   └── password_generator.py
+│
 ├── Real-Time Stopwatch/
 │   └── stopwatch.py
+├── Password Generator/
+│   └── app.py
 ```
 
 ---
