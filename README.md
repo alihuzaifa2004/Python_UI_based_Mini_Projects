@@ -13,6 +13,7 @@ This repository is created to deliver a collection of Python mini projects with 
 * Password Generator 🔐
 * Real-Time Stopwatch ⏱️
 * Basic Data Analysis with Streamlit 📊
+* E-Commerce Management System 🛒
 
 ---
 
@@ -287,7 +288,78 @@ When you upload a CSV file, you'll see:
 * You can adjust the encoding as needed (e.g., `utf-8`, `latin1`).
 
 ---
+Here's your **updated project README** with the new **🛒 E-Commerce Management System** section added and fully integrated into the existing project list and structure:
 
+---
+## 🛒 E-Commerce Management System
+
+This is a **Streamlit-based desktop web app** that simulates an **E-Commerce Management System** backed by a **SQL Server database**. The app enables customers to view and purchase products and provides admin-level access for managing product inventory and customer records.
+
+### ✅ Features
+
+#### 👥 Customers
+
+* Add new customers
+* View all registered customers
+* View individual customer order history
+
+#### 🛒 Products
+
+* Browse all available products with images
+* Buy products (place orders)
+* Admins can add new products with images
+
+#### 📦 Orders
+
+* Place new orders
+* View all orders
+* View specific customer's order history via stored procedure
+
+#### 🔐 Admin
+
+* Login system for admin access
+* Admin-only features (like product addition)
+
+### 🛠️ Technologies Used
+
+* Python
+* Streamlit (for GUI)
+* SQL Server (database)
+* pyodbc (for DB connection)
+* Pandas (data manipulation)
+* OS module (file handling)
+
+### ▶️ Running the App
+
+1. **Install dependencies:**
+
+   ```bash
+   pip install streamlit pyodbc pandas
+   ```
+
+2. **Run the app:**
+
+   ```bash
+   streamlit run app.py
+   ```
+
+> Make sure your SQL Server is running and accessible.
+
+### 🔑 Default Admin Login
+
+* **Username:** `admin`
+* **Password:** `admin123`
+
+### 📁 Folder Structure
+
+```
+E-Commerce Management System/
+├── app.py
+├── product_images/
+├── README.md
+```
+
+---
 ## 📂 Project Structure
 
 ```
@@ -327,6 +399,11 @@ When you upload a CSV file, you'll see:
 │   ├── app.py
 │   ├── README.md
 │   └── requirements.txt
+│
+├── E-Commerce Management System/
+│   ├── app.py
+│   ├── product_images/
+│   └── README.md
 ```
 
 ---
