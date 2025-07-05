@@ -14,6 +14,7 @@ This repository is created to deliver a collection of Python mini projects with 
 * Real-Time Stopwatch ⏱️
 * Basic Data Analysis with Streamlit 📊
 * E-Commerce Management System 🛒
+* Scientific Calculator 🧮
 
 ---
 
@@ -359,6 +360,39 @@ E-Commerce Management System/
 ├── README.md
 ```
 
+
+## 🧮 Scientific Calculator (Tkinter)
+
+This is a GUI-based Scientific Calculator built using Python's Tkinter library. It supports both basic arithmetic and advanced scientific functions with a responsive, scrollable layout.
+
+### ✅ Features
+
+* Standard operations: `+`, `-`, `*`, `/`, `()`
+* Scientific functions:
+  * Trigonometry: `sin`, `cos`, `tan`
+  * Logarithmic: `log`, `ln`
+  * Exponential and powers: `exp`, `pow`
+  * Square root: `sqrt`
+* Constants: `π`, `e`
+* Control buttons:
+  * `C` to clear all input
+  * `⌫` to delete a single character
+  * `=` to evaluate the expression
+* Scrollable interface for small screens
+
+### 🛠️ Technologies Used
+
+* Python 3.x
+* Tkinter (for GUI)
+* Math module (for scientific calculations)
+
+### ▶️ How to Run
+
+```bash
+python scientific_calculator.py
+```
+
+> No external libraries are required. This project runs with Python’s built-in modules.
 ---
 ## 📂 Project Structure
 
@@ -403,6 +437,9 @@ E-Commerce Management System/
 ├── E-Commerce Management System/
 │   ├── app.py
 │   ├── product_images/
+│   └── README.md
+├── Calculator/
+│   ├── main.py
 │   └── README.md
 ```
 
