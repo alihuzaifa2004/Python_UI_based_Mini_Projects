@@ -21,7 +21,7 @@ word_counter_app/
 ├── word_counter_streamlit.py   # Streamlit web version
 ├── word_counter_tkinter.py     # Tkinter desktop version
 ├── README.md                   # Project documentation
-└── requirements.txt            # Python dependencies
+
 ```
 
 ---
@@ -102,12 +102,6 @@ Install using:
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## 📸 Screenshots (Optional)
-
-Add screenshots of both apps here for better clarity.
 
 ---
 

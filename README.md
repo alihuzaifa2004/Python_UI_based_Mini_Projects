@@ -17,7 +17,7 @@ This repository is created to deliver a collection of Python mini projects with 
 * Scientific Calculator 🧮
 * Currency Converter 🌍
 * Weather App 🌐
-
+* Word Counter Application 📝
 ---
 
 ## 📘 Student Management System
@@ -583,7 +583,114 @@ python weather_app.py
 - Convert to EXE file for easy distribution.
 - Show multi-day forecasts.
 
+
+# 📝 Word Counter Application
+
+This project contains two versions of a **Word Counter App** built using:
+
+- ✅ **Streamlit (Web App)**
+- ✅ **Tkinter (Desktop App)**
+
+Both versions allow users to:
+- Paste text manually
+- Upload `.txt` or `.pdf` files
+- Analyze word count, character count, sentence count, and paragraph count
+
+---
+
 ## 📂 Project Structure
+
+```
+word_counter_app/
+│
+├── word_counter_streamlit.py   # Streamlit web version
+├── word_counter_tkinter.py     # Tkinter desktop version
+├── README.md                   # Project documentation
+
+```
+
+---
+
+## 🌐 Streamlit Version
+
+### ✅ Features
+- Paste or upload `.txt`/`.pdf` files
+- Extracts and displays content
+- Shows counts of:
+  - Words
+  - Characters
+  - Sentences
+  - Paragraphs
+- Requires pressing **Submit** button to view results
+
+### ▶️ How to Run
+
+1. **Install dependencies**:
+
+```bash
+pip install streamlit PyPDF2
+```
+
+2. **Run the app**:
+
+```bash
+streamlit run word_counter_streamlit.py
+```
+
+3. **Open in browser**:
+Streamlit will open your default browser automatically at `http://localhost:8501`.
+
+---
+
+## 🖥️ Tkinter Version
+
+### ✅ Features
+- Desktop GUI with:
+  - Text area for manual input
+  - Upload `.txt` or `.pdf` files
+  - "Analyze Text" button to process
+- Displays counts of:
+  - Words
+  - Characters
+  - Sentences
+  - Paragraphs
+
+### ▶️ How to Run
+
+1. **Install dependencies**:
+
+```bash
+pip install PyPDF2
+```
+
+2. **Run the app**:
+
+```bash
+python word_counter_tkinter.py
+```
+
+> Make sure you're running this in a desktop environment (not headless server).
+
+---
+
+## 📦 Requirements
+
+Create a `requirements.txt` with the following:
+
+```
+streamlit
+PyPDF2
+```
+
+Install using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📂 Project Folder Structure
 
 ```
 ├── Student Management System/
@@ -636,6 +743,10 @@ python weather_app.py
 │   └── README.md
 ├── Wheather App/
 │   ├── app.py\
+│   └── README.md
+├── Word Counter/
+│   ├── streamlit_version.py\
+|   ├── tkinter_version.py\
 │   └── README.md
 
 
