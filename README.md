@@ -730,7 +730,7 @@ pip install -r requirements.txt
 │   ├── README.md
 │   └── requirements.txt
 │
-├── E-Commerce Management System/
+├── E-Commerce order Management System/
 │   ├── app.py
 │   ├── product_images/
 │   └── README.md
