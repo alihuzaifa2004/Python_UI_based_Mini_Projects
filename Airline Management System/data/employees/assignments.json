@@ -1,20 +1,17 @@
 [
   {
-    "id": "PK1",
+    "employee": "Asim",
+    "role": "ground_staff",
+    "flight_id": "PK1",
     "origin": "Karachi",
     "destination": "Islamabad",
     "date": "2025-6-8",
     "time": "5:30"
   },
   {
-    "id": "PK2",
-    "origin": "Lahore",
-    "destination": "Islamabad",
-    "date": "2025-6-8",
-    "time": "12:00"
-  },
-  {
-    "id": "PK3",
+    "employee": "Asim",
+    "role": "pilot",
+    "flight_id": "PK3",
     "origin": "Karachi",
     "destination": "Islamabad",
     "date": "2025-6-8",
