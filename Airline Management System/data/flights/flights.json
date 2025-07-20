@@ -1,0 +1,13 @@
+[
+  {},
+  {
+    "id": "1",
+    "origin": "Karachi",
+    "destination": "Saudia"
+  },
+  {
+    "id": "2",
+    "origin": "Karachi",
+    "destination": "UAE"
+  }
+]
